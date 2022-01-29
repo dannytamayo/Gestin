@@ -1,15 +1,12 @@
 import React, { useContext, useState } from "react";
 import { StyleSheet, Text, View, Modal, Image, TextInput } from "react-native";
 import { TouchableOpacity } from "react-native";
-import { auth, db } from "../firebase";
-import { collection, getDocs} from "firebase/firestore/lite";
+import { auth } from "../firebase";
 import { updatePassword, reauthenticateWithCredential, EmailAuthProvider } from 'firebase/auth';	
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import FindScreen from "./FindScreen";
-import { NavigationContainer, useNavigation } from "@react-navigation/native";
+import { useNavigation } from "@react-navigation/native";
 import { UserContext } from "../context/UserContext";
 import close from "../assets/icons/close.png";
-import { ErrorMessage, Field, Formik } from "formik";
+import { ErrorMessage, Formik } from "formik";
 ErrorMessage;
 const ProfileScreen = ({ navigatio }) => {
   const navigation = useNavigation();
