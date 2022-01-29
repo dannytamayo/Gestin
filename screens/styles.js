@@ -8,7 +8,7 @@ const mainStyles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        backgroundColor: color.Green
+        backgroundColor: color.Black
     },
 
     containerCenter: {
