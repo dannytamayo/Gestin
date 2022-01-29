@@ -8,7 +8,7 @@ const mainStyles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        backgroundColor: color.WHITE
+        backgroundColor: color.Black
     },
 
     containerCenter: {
@@ -73,7 +73,7 @@ const splashStyles = StyleSheet.create({
 const loginStyles = StyleSheet.create({
 
     logo: {
-        paddingTop: 50,
+        paddingTop: 60,
         alignItems: 'center',
     },
 })
